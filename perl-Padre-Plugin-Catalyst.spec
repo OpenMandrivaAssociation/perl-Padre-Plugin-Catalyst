@@ -11,7 +11,10 @@ Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Padre/%{upstream_name}-%{upstream_version}.tar.gz
 
+BuildRequires: perl(Catalyst::Devel)
 BuildRequires: perl(Module::Build::Compat)
+BuildRequires: perl(Module::Pluggable::Object)
+BuildRequires: perl(Padre)
 BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}
 
