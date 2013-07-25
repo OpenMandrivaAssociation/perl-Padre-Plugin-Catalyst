@@ -1,15 +1,15 @@
 %define upstream_name    Padre-Plugin-Catalyst
-%define upstream_version 0.09
+%define upstream_version 0.13
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 0.13
+Release:	1
 
 Summary:	Catalyst plugin for Padre
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Padre/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Padre/Padre-Plugin-Catalyst-0.13.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Catalyst::Devel)
@@ -91,4 +91,5 @@ the following options:
 
 * Sat May 30 2009 cpan2dist 0.03-1mdv
 - initial mdv release, generated with cpan2dist
+
 
