@@ -2,14 +2,14 @@
 %define upstream_version 0.13
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.13
+Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	Catalyst plugin for Padre
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Padre/Padre-Plugin-Catalyst-0.13.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Padre/Padre-Plugin-Catalyst-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Catalyst::Devel)
