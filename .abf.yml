@@ -1,2 +1,4 @@
+removed_sources:
+  Padre-Plugin-Catalyst-0.09.tar.gz: 933f8034f86aa8a1bc8dc8bed32d59c46670cfc2
 sources:
-  "Padre-Plugin-Catalyst-0.09.tar.gz": 933f8034f86aa8a1bc8dc8bed32d59c46670cfc2
+  Padre-Plugin-Catalyst-0.13.tar.gz: 1f448e353dae0c5f20e95433f2dea622f479985b
